@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class AlbumConfig(AppConfig):
+class AuthorConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'album'
+    name = 'author'
